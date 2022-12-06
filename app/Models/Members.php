@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Members extends Model
 {
     use HasFactory;
+    protected  $table = 'members';
+
+    function companydata(){
+
+        return $this->hasOne('App\Models\Companies');
+    }
 }

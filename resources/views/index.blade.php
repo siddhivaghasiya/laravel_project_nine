@@ -38,7 +38,7 @@
 
 
     <h3>
-        <a href="">Members</a>
+        <a href="{{ route('members.listing') }}">Members</a>
     </h3>
     <h3>
         <a href="">Companies</a>

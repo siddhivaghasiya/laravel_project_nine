@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/','\App\Http\Controllers\Homecontroller@index')->name('front');
+
+Route::get('member/listing','\App\Http\Controllers\Membercontroller@index')->name('members.listing');
+
